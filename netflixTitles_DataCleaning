@@ -1,7 +1,9 @@
 #How many rows and columns are contained in the dataset? 
 print(df.shape)
+
 #What datatypes are contained in the dataset?
 df.info()
+
 #Is the dataset complete?
 df.describe()
 
